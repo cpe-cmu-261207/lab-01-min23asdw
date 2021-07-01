@@ -7,34 +7,36 @@
   <title>My Resume Website</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css\layout.css">
+  <script src="https://kit.fontawesome.com/0e9c5df5b8.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
+
+    <!-- navbar -->
+    <!-- <div class="w-full flex justify-center border "> -->
+      <div class="border w-screen flex justify-end">
+      <nav class="">
+        <ul class="flex flex-row justify-end h-13">
+          <li><a href="index.html"><span>Home</span></a></li>
+          <li><a href="Experience.html"><span>Experience</span></a></li>
+          <li ><a href="Contact.html"><span>Contact</span></a></li>
+        </ul>
+      </nav>
+      </div>
+
   <!-- background -->
   <div class="bg-blue-100 w-screen background ">
     <!-- 2 past -->
-    <div class="flex flex-row w-screen relative justify-center block ">
+    <div class="flex flex-row  justify-start  flex-wrap">
 
 
       <!-- mypic -->
-      <div class="flex justify-center  border h-1/2 my-auto w-1/3">
+      <div class="flex justify-center  border h-1/2 my-auto w-1/3 p-10">
         <img src="img\117534855_2718259128432243_6637576836045892588_n.jpg" alt="Mypic">
-
       </div>
 
+      <!-- data -->
       <div class="w-2/3">
-
-
-        <!-- navbar -->
-        <div class="w-full flex justify-center border pt-8">
-        <ul class="flex justify-between w-1/2 items-center bg-blue-300 layout-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Experience.html">Experience</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-          <li><a href="#about">..</a></li>
-        </ul>
-        </div>
-
         <div class="border p-1 ">
           <!-- project -->
 
@@ -44,39 +46,55 @@
             <div class="maincolume">
               <!-- data -->
               <div class="flex flex-col justify-start items-center h-full  bordercode">
-                <!-- about -->
-                <div class="border flex flex-row justify-end items-start layout-about flex-wrap">
+                <!-- about  contenner-->
+                <div class="border-about flex flex-row justify-start  h-2/5 flex-wrap  p-10">
 
-                    about me
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <!-- about -->
+                  <div class="w-2/3">
 
-                  <div class="my-auto">
+                    <h4><i class="fas fa-code"></i> about me</h4>
+                    Hi, my name is Pongsakorn. I graduated from Chiangmai
+University. Studied Computer Engineering. I love programming.
+I'm interested in website development, both frontend and
+backend!
+                  </div>
+                  <!-- video -->
+                  <div class="relative mt-13 right-2 w-1/3 flex flex-col justify-end items-end border">
                     <p>my fre ggmae</p>
-                    <video src="video\minecraft.mp4" width="50%" height="50%" autoplay poster="minecraft">
+                    <video src="video\minecraft.mp4" width="95%" height="95%" autoplay poster="minecraft">
 
                     </video>
                   </div>
                 </div>
 
-<!-- ิ                    scroll-bttn -->
+                <!-- ิ                    scroll-bttn -->
 
-
+                <br><br>
                 <!-- skill -->
-                <div class="borderdata h-40 flex flex-row justify-between layout-skill">
-                  <div class="flex flex-col justify-between borderdata w-1/2">
-                    <div class="border skill-margin h-12">
-                      test
+                <div class="borderdata h-3/5 flex flex-row justify-between layout-skill w-full">
+                  <div class="flex flex-col items-center borderdata w-1/2 ">
+                    <div class="border-skill skill-margin skill-card">
+                      <i class="fas fa-code"></i>Dev Ops
+I take care of application maintenance. I have fine experience in
+both server and container based deployment.
+
                     </div>
-                    <div class="border skill-margin h-12">
-                      test
+                    <div class="border-skill skill-margin skill-card">
+                      <i class="fas fa-code"></i>Programming
+I love coding! I code desktop application using C#, frontend
+website using Vue and React, and also the backend part.
                     </div>
                   </div>
-                  <div class="flex flex-col justify-between borderdata w-1/2">
-                    <div class="border skill-margin h-12">
-                      test
+                  <div class="flex flex-col items-center borderdata w-1/2">
+                    <div class="border-skill skill-margin skill-card">
+                      <i class="fas fa-code"></i>Dev Ops
+I take care of application maintenance. I have fine experience in
+both server and container based deployment.
                     </div>
-                    <div class="border skill-margin h-12">
-                      test
+                    <div class="border-skill skill-margin skill-card">
+                      <i class="fas fa-code"></i>Dev Ops
+I take care of application maintenance. I have fine experience in
+both server and container based deployment.
                     </div>
                   </div>
                 </div>
@@ -88,10 +106,9 @@
 
 
         </div>
-
-
       </div>
+
     </div>
   </div>
-  </body>
-  </html>
+</body>
+</html>
