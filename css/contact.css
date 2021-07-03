@@ -9,6 +9,15 @@
   backdrop-filter: blur(5px);
 
 }
+.pic{
+
+/* border:  1px solid; */
+/* width: 400px; */
+border-radius: 500px;
+overflow: hidden;
+
+}
+
 body {
   background-image: url("..\img\miku.jpg");
 }
