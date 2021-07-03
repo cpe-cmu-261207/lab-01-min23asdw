@@ -23,20 +23,20 @@
   } */
   .border-pic{
 
-  border: 1px solid;
+  /* border: 1px solid; */
   border-radius: 50px;
-border-color: #c9641a;
+/* border-color: #c9641a; */
   }
 .border-about{
 
   border: 1px solid;
   border-radius: 50px;
-border-color: #c9641a;
+border-color: #acacac;
   }
   .border-skill{
 
   border: 1px solid;
-border-color: #c9641a;
+border-color: #9f9f9f;
   }
   .borderdata{
 
@@ -78,6 +78,6 @@ width: 70%;
 border-radius: 30px;
 padding: 10px;
 }
-
-
-/* navbar */
+.background{
+background-image: url("../img/ss.jpg");
+}
